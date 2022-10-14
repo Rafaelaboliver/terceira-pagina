@@ -1,40 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    background-color: #e5e5e571;
+}
 
 .page-driveneats{
-    background-color: red;
+    background-color: #e5e5e5;
     width: 414px;
     margin: 0 auto;
 }
 
 .top-page{
-    background-color: aqua;
+    background-color:  #CF2B2B;
+    width: 414px;
+    height: 92px;
+    padding-top: 8px;
+    color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.item-image{
-    width: 50px;
-    height: 50px;
+.top-title{
+    width: 248px;
+    font-family: righteous;
+    font-weight: 400;
+    font-size: 44px;
+    margin-left: 21px;
+}
+
+.top-subtitle{
+    width: 226px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 21px;
+    margin-top: 5px;
+}
+
+.choice{
+    width: 320px;
+    font-family: righteous;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333;
+    margin-top: 27px;
+    margin-left: 19px;
+}
+
+.menu{
+    max-width: 580px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    overflow: auto;
+    flex-shrink: 0;
+    padding-left: 175px;
+  }
+ 
+
+.image{
+    width: 144px;
+    height: 87px;
     border-radius: 4px;
 }
 
-.menu-options{
-    background-color: chartreuse;
+.menu-option1, .menu-option2, .menu-option3, .menu-option4, .menu-option5, .menu-option6, .menu-option7, .menu-option8, .menu-option9{
+    background-color: #fff;
+    text-align: justify;
+    width: 175px;
+    height: 216px;
+    padding-left: 15px;
+    padding-right: 14px;
+    padding-top: 8px;
+    margin-left: 16px;
+    margin-top: 17px;
+    border-radius: 9px;
+    border-width: 0px;
+    box-shadow: 0px 0px 10 -4 rgba(0, 0, 0, 0.25);
+
 }
 
-.main-option{
-    background-color: darkorange;
-    margin-top: 31px;
+.border-check{
+    border-color: #32b72f;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0px 0px  rgba(0, 0, 0, 0.25);
+
 }
 
-.drink-option{
-    background-color: deeppink;
-    margin-top: 27px;
-}
+  .item-name{
+    width: 139px;
+    margin-top: 8px;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 16px;
+  }
 
-.dessert-option{
-    background-color: deepskyblue;
-    margin-top: 27px;
-}
+  .item-description{
+    width: 147px;
+    height: 39px;
+    margin-top: 4px;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #a6a6a6;
+  }
+
+  .item-price{
+    margin-top: 5px;
+    font-family: roboto;
+    font-size: 16px;
+    color: #000;
+  }
 
 .bottom-page{
-    background-color: darkviolet;
-    margin-top: 27px;
+    background-color: #fff;
+    width: 414px;
+    height: 92px;
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.message{
+    background-color: #cbcbcb;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    border-color: #cbcbcb;
+    border-width: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 400;
+    line-height: 23px;
+    color: #fff;
+}
+
+.hide{
+    display: none;
 }

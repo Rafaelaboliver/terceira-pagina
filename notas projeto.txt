@@ -1,0 +1,6 @@
+.menu::-webkit-scrollbar{
+    background-color: #e5e5e5;
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
