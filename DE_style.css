@@ -55,22 +55,26 @@ body{
     flex-shrink: 0;
     padding-left: 175px;
   }
- 
+
+*::-webkit-scrollbar{
+    background: transparent;
+} 
 
 .image{
-    width: 144px;
+    width: 145px;
     height: 87px;
     border-radius: 4px;
+    margin-top: 18px;
 }
 
-.menu-option1, .menu-option2, .menu-option3, .menu-option4, .menu-option5, .menu-option6, .menu-option7, .menu-option8, .menu-option9{
+.food-menu, .drink-menu, .dessert-menu{
     background-color: #fff;
-    text-align: justify;
+    text-align: left;
+    align-items: center;
     width: 175px;
-    height: 216px;
+    height: 220px;
     padding-left: 15px;
     padding-right: 14px;
-    padding-top: 8px;
     margin-left: 16px;
     margin-top: 17px;
     border-radius: 9px;
@@ -87,18 +91,23 @@ body{
 
 }
 
+.check{
+    color: #32b72f;
+    font-size: 20px;
+}
   .item-name{
     width: 139px;
     margin-top: 8px;
     font-family: roboto;
     font-weight: 700;
     font-size: 16px;
+    color: #333;
   }
 
   .item-description{
     width: 147px;
     height: 39px;
-    margin-top: 4px;
+    margin-top: 5px;
     font-family: roboto;
     font-weight: 300;
     font-size: 15px;
@@ -112,6 +121,11 @@ body{
     font-size: 16px;
     color: #000;
   }
+
+  .check{
+    color: #32b72f;
+    font-size: 25px;
+}
 
 .bottom-page{
     background-color: #fff;
@@ -141,4 +155,17 @@ body{
 
 .hide{
     display: none;
+}
+
+.finish-order{
+    background-color: #32b72f;
+    border-width: 0px;
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
 }
