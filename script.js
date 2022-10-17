@@ -144,6 +144,7 @@ let whatsappMessage;
 
 function whastapp (){
     totalOrder = (finalPriceFood + finalPriceDrink + finalPriceDessert);
+
     console.log(totalOrder);
     let whatsappMessage = encodeURIComponent (
         `Olá, gostaria de fazer o pedido:
@@ -155,3 +156,4 @@ function whastapp (){
 
     window.open("https://wa.me/4407525045936?text=" + whatsappMessage);
 }
+
